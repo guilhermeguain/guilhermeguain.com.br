@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #282933;
+  overflow-x: hidden;
+}
+
+body, button {
+  font: 400 18px Montserrat, sans-serif;
+}
+
+p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+p:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.page-container,
+.content-wrapper {
+  margin: 0 auto;
+  padding: 0 40px;
+
+  width: 100%;
+  max-width: 1300px;
+}
+
+.title {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 5px;
+}
