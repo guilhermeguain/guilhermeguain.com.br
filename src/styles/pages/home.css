@@ -22,9 +22,8 @@
   padding-top: 40px;
 
   display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
+  flex-flow: column wrap;
+  align-items: center;
 }
 
 .section-about .about-avatar {
@@ -33,6 +32,7 @@
 
 .section-about .about-content {
   margin: 0 0 40px 0;
+  text-align: center;
 
   flex-grow: 1;
 }
@@ -265,8 +265,16 @@
     line-height: 50px;
   }
 
+  .section-about {
+    flex-flow: row wrap;
+  }
+
   .section-about .about-avatar {
     margin: 0 40px 40px 0;
+  }
+
+  .section-about .about-content {
+    text-align: left;
   }
 
   .section-projects .projects-container {
