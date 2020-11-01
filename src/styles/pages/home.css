@@ -1,7 +1,8 @@
 .section-hero {
   margin-left: calc(50% - 50vw);
+  padding: 20px;
   width: 100vw;
-  height: calc(100vh - 80px);
+  height: 100vh;
   background: url('../../images/bg-hero.jpg') no-repeat fixed center;
   background-size: cover;
 
@@ -15,8 +16,6 @@
 
 .section-hero .main-title {
   font-weight: 400;
-  font-size: 48px;
-  line-height: 56px;
 }
 
 .section-about {
@@ -29,13 +28,23 @@
 }
 
 .section-about .about-avatar {
-  margin: 0 40px 40px 0;
+  margin: 0 auto 40px;
 }
 
 .section-about .about-content {
   margin: 0 0 40px 0;
 
   flex-grow: 1;
+}
+
+.section-about .about-content .about-name {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.section-about .about-content .about-role {
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .section-about .about-content .about-role,
@@ -99,6 +108,10 @@
   margin-right: 10px;
 }
 
+.section-about .about-skills .skills-container .skill p {
+  text-align: left;
+}
+
 .section-projects {
   padding-top: 40px;
 }
@@ -107,7 +120,7 @@
   margin: 40px 0;
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(33.33%, auto));
+  grid-template-columns: repeat(auto-fit, minmax(50%, auto));
 }
 
 .section-projects .projects-container .project {
@@ -146,13 +159,25 @@
   padding-bottom: 10px;
 
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  flex-flow: column wrap;
+  align-items: flex-start;
+}
+
+.section-experience .experience-title {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.section-experience .experience-role {
+  margin-bottom: 10px;
 }
 
 .section-experience .experience-activities li {
+  font-size: 16px;
+  line-height: 24px;
+
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .section-experience .experience-activities li:not(:last-of-type) {
@@ -160,6 +185,8 @@
 }
 
 .section-experience .experience-activities li svg {
+  min-width: 16px;
+  
   margin-right: 10px;
 }
 
@@ -172,8 +199,8 @@
   margin-top: 40px;
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(calc(25% - 40px), auto));
-  grid-gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(100%, auto));
+  row-gap: 40px;
 }
 
 .section-education .educations-container .education {
@@ -230,4 +257,55 @@
 
 .section-extra .extra-image {
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-hero .main-title {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .section-about .about-avatar {
+    margin: 0 40px 40px 0;
+  }
+
+  .section-projects .projects-container {
+    margin: 40px 0;
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(33.33%, auto));
+  }
+
+  .section-education .educations-container {
+    margin-top: 40px;
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(50% - 40px), auto));
+    grid-gap: 40px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-hero .main-title {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .section-about .about-content .about-name {
+    font-size: 1.5em;
+    line-height: 1.25em;
+  }
+
+  .section-about .about-content .about-role {
+    font-size: 1.2em;
+    line-height: 1.25em;
+  }
+
+  .section-education .educations-container {
+    margin-top: 40px;
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(25% - 40px), auto));
+    grid-gap: 40px;
+  }
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import './styles.css';
 
@@ -9,9 +8,9 @@ function Header() {
   return (
     <div className="header-container">
       <div className="header">
-        <Link to="/">
+        <a className="header-logo" href="#">
           <img className="header-logo" src={logoImg} width="495" height="40" alt="Guilherme Guain" title="Guilherme Guain" />
-        </Link>
+        </a>
         <ul className="header-menu">
           <li>
             <a href="#about">Sobre</a>

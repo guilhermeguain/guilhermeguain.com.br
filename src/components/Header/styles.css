@@ -1,10 +1,15 @@
 .header-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  
   background: rgba(255, 255, 255, 0.8);
 }
 
 .header {
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px;
 
   width: 100%;
   max-width: 1300px;
@@ -13,6 +18,12 @@
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
+}
+
+.header-logo {
+  margin-right: 40px;
+  
+  min-width: 200px;
 }
 
 .header-menu {

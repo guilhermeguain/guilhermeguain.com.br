@@ -191,7 +191,7 @@ function Home() {
     <div id="page-home">
       <Header />
       <div className="page-content">
-        <div className="section-hero">
+        <div id="hero" className="section-hero">
           <h1 className="main-title">Desenvolvedor Web Front-End</h1>
         </div>
         <div id="about" className="section-about">
