@@ -195,7 +195,7 @@ function Home() {
           <h1 className="main-title">Desenvolvedor Web Front-End</h1>
         </div>
         <div id="about" className="section-about">
-          <img className="about-avatar" src={avatar} alt="Guilherme Guain" title="Guilherme Guain" />
+          <img className="about-avatar" src={avatar} width="220" height="220" alt="Guilherme Guain" title="Guilherme Guain" />
           <div className="about-content">
             <h2 className="about-name title">Guilherme Emilio Guain Peixinho</h2>
             <h3 className="about-role">Desenvolvedor Web Front-End</h3>
@@ -276,7 +276,7 @@ function Home() {
           <h2 className="title">Projetos</h2>
           <div className="projects-container">
             {projects.map(project => (
-              <img key={project.title} className="project" src={project.img} alt={project.title} title={project.title} />
+              <img key={project.title} className="project" src={project.img} width="407" height="407" alt={project.title} title={project.title} />
             ))}
           </div>
         </div>
@@ -325,7 +325,7 @@ function Home() {
           <h2 className="title">Extracurricular</h2>
               <div className="extras-container">
                 <div className="extra">
-                  <img className="extra-image" src={extraMovingUp} alt="Moving Up - High Stakes Academy" title="Moving Up - High Stakes Academy" />
+                  <img className="extra-image" src={extraMovingUp} width="355" height="125" alt="Moving Up - High Stakes Academy" title="Moving Up - High Stakes Academy" />
                   <div className="extra-content">
                     <p>O moving up é um curso 100% online. Um mapa estratégico baseado nos 5 pilares da vida (financeiro, profissional, corpo e mente, relacionamentos e controle emocional) pra você hackear o seu lifestyle e trilhar o caminho para se tornar um profissional high stakes em 8 semanas.</p>
                     <p>Tudo o que deveria ser ensinado nas escolas e faculdades para alguém se tornar bem sucedido nos dias atuais. O verdadeiro MBA do mundo real.</p>
