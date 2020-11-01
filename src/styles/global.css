@@ -17,6 +17,11 @@ body, button {
   font: 400 18px Montserrat, sans-serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 p {
   font-size: 16px;
   text-align: justify;
@@ -30,7 +35,7 @@ ul {
   list-style: none;
 }
 
-.page-container,
+.page-content,
 .content-wrapper {
   margin: 0 auto;
   padding: 0 40px;
