@@ -1,5 +1,5 @@
-.header-container {
-  position: absolute;
+.header {
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -7,7 +7,8 @@
   background: rgba(255, 255, 255, 0.8);
 }
 
-.header {
+.main-header,
+.sticky-header {
   margin: 0 auto;
   padding: 20px;
 
@@ -26,25 +27,7 @@
   min-width: 200px;
 }
 
-.header-menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.header-menu li {
-  margin: 0 10px;
-  padding: 0 5px;
-  
-  font-weight: 600;
-}
-
-.header-menu a {
-  font-weight: 400;
-  text-decoration: none;
-  color: #282933;
-}
-
-.header-menu a:hover {
-  color: #4072a0;
+.sticky-header .header-logo {
+  width: auto;
+  max-height: 20px;
 }
