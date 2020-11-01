@@ -188,7 +188,7 @@ function Home() {
   ];
 
   return (
-    <div id="page-home" className="page-container">
+    <div id="page-home">
       <Header />
       <div className="page-content">
         <div className="section-hero">

@@ -1,6 +1,14 @@
+.header-container {
+  background: rgba(255, 255, 255, 0.8);
+}
+
 .header {
+  margin: 0 auto;
   padding: 20px 0;
 
+  width: 100%;
+  max-width: 1300px;
+  
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
