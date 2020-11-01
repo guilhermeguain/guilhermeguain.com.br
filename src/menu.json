@@ -1,0 +1,27 @@
+[
+  {
+    "title": "About",
+    "label": "Sobre",
+    "target": "about"
+  },
+  {
+    "title": "Projects",
+    "label": "Projetos",
+    "target": "projects"
+  },
+  {
+    "title": "Experience",
+    "label": "Experiência",
+    "target": "experience"
+  },
+  {
+    "title": "Education",
+    "label": "Educação",
+    "target": "education"
+  },
+  {
+    "title": "Extra",
+    "label": "Extra",
+    "target": "extra"
+  }
+]
