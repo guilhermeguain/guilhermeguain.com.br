@@ -207,7 +207,7 @@ function Home() {
                 </a>
               ))}
             </div>
-            <a className="curriculum-link" href={curriculum} target="_blank">
+            <a className="curriculum-link" href={curriculum} target="_blank" rel="noreferrer">
               <FaFileAlt size={24} color="#fff" />Currículo
             </a>
           </div>
