@@ -17,6 +17,7 @@ import '../styles/pages/home.css';
 import Header from '../components/Header';
 
 import avatar from '../images/guilhermeguain.png';
+import curriculum from '../curriculo_guilherme_guain.pdf';
 
 import projectAladdiv from '../images/project-aladdiv.jpg';
 import projectAntaresTur from '../images/project-antarestur.jpg';
@@ -206,7 +207,7 @@ function Home() {
                 </a>
               ))}
             </div>
-            <a className="curriculum-link" href="/">
+            <a className="curriculum-link" href={curriculum} target="_blank">
               <FaFileAlt size={24} color="#fff" />Currículo
             </a>
           </div>
